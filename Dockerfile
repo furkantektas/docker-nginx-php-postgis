@@ -1,4 +1,5 @@
 FROM octohost/php5
+MAINTAINER Furkan Tektas <http://github.com/furkantektas>
 
 RUN sudo apt-get -y install python-software-properties
 RUN sudo add-apt-repository ppa:ubuntugis/ppa
