@@ -8,7 +8,6 @@ sudo docker run  -p 80:80 -p 5432:5432 -v /var/www:/srv/www \
 
 ##Ports
 
-| Port Num      | Service       |
-| ------------- |:-------------:|
-| `80`          | NGiNX         |
-| `5432`        | PostgreSQL    |
+80 NGiNX service
+
+5432 PostgreSQL service
